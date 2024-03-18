@@ -32,7 +32,7 @@ export default function Herosection() {
      
         <img src={im.back} alt='' height={500} className='' ></img>
         <p className='absolute top-[30%] left-[50px] font-bold text-white text-6xl w-[40%] '>{im.description}</p>
-     
+        <p className='absolute top-[60%] left-[50px] font-bold text-white text-2xl uppercase h-[50px] border-8 border-white rounded-full px-[20px] flex items-center'>ielts<IoEllipseSharp className='w-[15px] px-[3px] h-[15px] inline flex-row items-center text-green-500'/>pte<IoEllipseSharp className='w-[15px] h-[15px] inline flex-row items-center text-green-500'/>gmat<IoEllipseSharp className='w-[15px] h-[15px] inline flex-row items-center text-green-500'/>toefl<IoEllipseSharp className='w-[15px] h-[15px] inline flex-row items-center text-green-500'/>sat</p>
         </div>
         
     )
